@@ -161,7 +161,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
           ],
         },
         {
-          text: "如何基于公司私有组件库生成业务组件",
+          text: "如何基于公司私有组件库生成代码",
           // link: "/advanced-improvement/private-components",
           base: "/guide/advanced-improvement/private-components",
           // collapsed: false,
