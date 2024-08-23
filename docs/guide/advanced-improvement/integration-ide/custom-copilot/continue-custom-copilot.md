@@ -22,8 +22,6 @@ Github Copilot，The world’s most widely adopted AI developer tool.（世界�
 
 作为一个通用的 AI 辅助开发工具，Github Copilot 的确已经做得很好了。
 
-后续会有专门的文章，来介绍 Github Copilot 的使用技巧和案例。
-
 但是，我的欲望远不止于此。
 
 我想要一个更强大的 Copilot，一个能够结合业务、深入场景来**客制化自定义**的 Copilot。

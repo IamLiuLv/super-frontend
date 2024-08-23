@@ -88,9 +88,13 @@ curl --location --request POST 'https://lv0.chat/api/plugin/codegen/antd/chat/co
       "contextLength": 128000,
       "apiBase": "https://lv0.chat/api/plugin/codegen/antd", // 重点：这里填写 LV0 开放的 OpenAPI 地址（不需要包含后面的/chat/completions）
       "completionOptions": {
-        "maxTokens": 4096,
-        "apiKey": "sk-xxxx" // 这里填写 OpenAI 的 API Key
-        // "apiBase": "https://api.openai.com/v1" // 这里填写 OpenAI 的 API 代理地址（非必填）
+        "maxTokens": 4096
+      },
+      "requestOptions": {
+        "headers": {
+          "apiKey": "sk-xxxx" // 这里填写 OpenAI 的 API Key
+          // "apiBase": "https://api.openai.com/v1" // 这里填写 OpenAI 的 API 代理地址（非必填）
+        }
       }
     }
   ]
