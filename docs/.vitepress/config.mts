@@ -5,7 +5,22 @@ export default defineConfig({
   title: "AI赋能前端研发从0～1",
   description:
     "体系化整理自AI爆发以来，如何将AI从0～1融入前端研发工作流的探索历程。",
-  head: [["link", { rel: "icon", href: "/logo.svg" }]],
+  head: [
+    ["link", { rel: "icon", href: "/logo.svg" }],
+    [
+      "script",
+      {
+        type: "text/javascript",
+      },
+      `
+          (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+          })(window, document, "clarity", "script", "nf8ejm374k");
+        `,
+    ],
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: nav(),
@@ -146,7 +161,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
           ],
         },
         {
-          text: "如何基于公司私有组件库生成业务组件",
+          text: "如何基于公司私有组件库生成代码",
           // link: "/advanced-improvement/private-components",
           base: "/guide/advanced-improvement/private-components",
           // collapsed: false,

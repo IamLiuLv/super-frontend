@@ -1,6 +1,6 @@
 # AI 赋能前端研发从 0 ～ 1
 
-主要会从 [AI 赋能前端研发从 0 ～ 1](/) 小册中抽出比较重要的内容进行分享。 大纲如下 👇
+主要会从 [AI 赋能前端研发从 0 ～ 1](https://ai.iamlv.cn) 小册中抽出比较重要的内容进行分享。 大纲如下 👇
 
 ## 大纲
 
@@ -247,7 +247,7 @@ ps：如下用的`结构化提示词`
 
 ### 开发生成业务组件的 AI 平台
 
-`产品定位`：基于任意开源、私有 UI 组件库生成前端代码的 AI 产品
+`产品定位`：AI 驱动的前端代码生成平台，能够基于任意开源、私有 UI 组件库生成前端代码。
 
 :::tip PS
 如果放在 `AI 赋能前端金字塔`体系中，LV0 目前阶段主要定位在`业务组件`的研发环节。👇
@@ -255,7 +255,7 @@ ps：如下用的`结构化提示词`
 ![](https://lvjishupai.oss-cn-beijing.aliyuncs.com/20240722151841.png)
 :::
 
-`产品愿景`：助力部分前端转型，成为 AI 时代的超级个体，一个人可以搞定产品、UI、和前端开发。
+`产品愿景`：助力部分前端转型，成为 AI 时代的超级个体，无需多个团队，一个人即可完成前端设计（UI、UX）和开发工作。
 
 `产品地址`：[请点击](http://lv0.chat)
 
@@ -263,7 +263,7 @@ ps：如下用的`结构化提示词`
 
 `2大优势`：1.基于任意开源或者私有组件库生成代码、2.开放核心 API 能力，快速接入工作流。
 
-`最佳实践案例`：[1. 循序渐进式生成代码](/guide/advanced-improvement/ai-product/step-by-step)、[2. 聊天式生成代码](/guide/advanced-improvement/ai-product/chat-style)
+`最佳实践案例`：[1. 循序渐进式生成代码](https://ai.iamlv.cn/guide/advanced-improvement/ai-product/step-by-step.html)、[2. 聊天式生成代码](https://ai.iamlv.cn/guide/advanced-improvement/ai-product/chat-style.html)
 
 ---
 
@@ -402,7 +402,7 @@ RAG 技术原理简单来说：从大模型外的知识库（如私有的向量�
 
 **自定义任意 Context Providers**
 
-Context Providers，故名思义，就是提供上下文的服务。
+Context Providers，顾名思义，就是提供上下文的服务。
 
 ![](https://lvjishupai.oss-cn-beijing.aliyuncs.com/20240618101428.png)
 
