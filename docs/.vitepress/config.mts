@@ -104,7 +104,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       base: "/guide/preface",
       items: [
-        { text: "小册介绍", link: "/intro" },
+        { text: "基本介绍", link: "/intro" },
         { text: "核心理论", link: "/core-theory" },
         { text: "章节说明", link: "/chapter-guide" },
       ],
@@ -196,7 +196,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
                   link: "/solution-2",
                 },
                 {
-                  text: "方案三：自定义 Agent 接入私有组件库",
+                  text: "方案三：自定义 AI Agent Workflow 接入私有组件库",
                   link: "/solution-3",
                 },
               ],
@@ -209,30 +209,30 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
           base: "/guide/advanced-improvement/integration-ide",
           // collapsed: false,
           items: [
-            {
-              text: "Github Copilot",
-              base: "/guide/advanced-improvement/integration-ide",
-              link: "/github-copilot",
-              // collapsed: false,
-              // items: [
-              //   {
-              //     text: "产品定位",
-              //     link: "/product-positioning",
-              //   },
-              //   {
-              //     text: "通用技能",
-              //     link: "/general-skills",
-              //   },
-              //   {
-              //     text: "组合神技",
-              //     link: "/combo-techniques",
-              //   },
-              //   {
-              //     text: "最佳实践案例",
-              //     link: "/best-practices",
-              //   },
-              // ],
-            },
+            // {
+            //   text: "Github Copilot",
+            //   base: "/guide/advanced-improvement/integration-ide",
+            //   link: "/github-copilot",
+            //   // collapsed: false,
+            //   // items: [
+            //   //   {
+            //   //     text: "产品定位",
+            //   //     link: "/product-positioning",
+            //   //   },
+            //   //   {
+            //   //     text: "通用技能",
+            //   //     link: "/general-skills",
+            //   //   },
+            //   //   {
+            //   //     text: "组合神技",
+            //   //     link: "/combo-techniques",
+            //   //   },
+            //   //   {
+            //   //     text: "最佳实践案例",
+            //   //     link: "/best-practices",
+            //   //   },
+            //   // ],
+            // },
             {
               text: "自定义 Copilot",
               // link: "/advanced-improvement/integration-ide/custom-copilot",
