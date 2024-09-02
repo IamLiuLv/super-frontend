@@ -20,6 +20,13 @@ export default defineConfig({
           })(window, document, "clarity", "script", "nf8ejm374k");
         `,
     ],
+    [
+      "meta",
+      {
+        name: "google-site-verification",
+        content: "zGuqYg4NPnK47t9JrW6GouUMAAwG5KoMTpN5vWyNAfY",
+      },
+    ],
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
