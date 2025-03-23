@@ -84,6 +84,11 @@ export default defineConfig({
 function nav(): DefaultTheme.NavItem[] {
   return [
     {
+      text: "🔥视频课程",
+      link: "/video-cursor",
+      activeMatch: "/video-cursor",
+    },
+    {
       text: "指南",
       link: "/guide/preface/intro",
       activeMatch: "/guide/",
